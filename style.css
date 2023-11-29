@@ -1,0 +1,58 @@
+
+.navbar{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color:aliceblue;
+    border-radius: 35px;
+    width: 70%;
+    color: white;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+    margin: 5px 3px
+}
+.navbar li a{
+    padding: 20px 39px;
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    color: palevioletred;
+}
+#services{
+    font-size: x-large;
+    align-items: center;;
+}
+h2{
+    font-size: xx-large;
+}
+.letters{
+    color: aqua;
+    font-size: 35px;
+}
+
+.gallery{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+
+}
+.gallery img{
+    width: 250px;
+    height: 300px;
+}
+.glr2{
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+    margin-top: -15rem;
+
+}
+.glr2 img{
+    width: 250px;
+    height: 300px;
+}
+
